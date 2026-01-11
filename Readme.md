@@ -57,7 +57,8 @@ The system allows users to upload an MRI brain image, automatically detect and s
 - **Application Load Balancer**
 - **AWS IAM**
 
----
+### Architecture Overview
+![Architecture](assets/architecture.png)
 
 ##  Project Structure
 
@@ -79,10 +80,7 @@ MRI_Brain/
 ├── requirements.txt
 └── README.md
 
-
-
-
- How the System Works (Simple Flow)
+How the System Works (Simple Flow)
 	1.	User uploads an MRI image
 	2.	Image is preprocessed (resize + normalize)
 	3.	CNN model predicts tumor type
@@ -91,11 +89,6 @@ MRI_Brain/
 	6.	AI generates a medical report
 	7.	PDF report is created
 	8.	User can ask questions using AI assistant
-
-
-
- Architecture Overview
-
 
 Report Design Logic
 	•	Patient details appear only in the header
@@ -110,7 +103,6 @@ Findings:
 	•	Hyperintense signal in affected region
 	•	Mild mass effect noted
 
-⸻
 ☁️ AWS Deployment Summary
 	•	Docker image built for linux/amd64
 	•	Image pushed to Amazon ECR
@@ -156,7 +148,7 @@ Limitations
 
 👤 Author
 
-Prajwal
+Prajwal S
 Engineering Student
 Interested in AI, ML, Cloud & DevOps
 
@@ -167,21 +159,5 @@ Interested in AI, ML, Cloud & DevOps
 This system is created only for educational and demonstration purposes.
 Always consult a qualified medical professional for real diagnosis.
 
----
 
-## ✅ What this README does well
-- Professional and interview-ready  
-- Clear ML + Cloud explanation  
-- Architecture diagram included  
-- AWS + Docker issues explained  
-- Perfect for **GitHub, resume, and demos**
 
----
-
-If you want, next I can:
-- Add **badges** (Docker, AWS, Python)
-- Make a **short version** for resume
-- Write a **LinkedIn project post**
-- Create **README screenshots section**
-
-Just tell me 👍
