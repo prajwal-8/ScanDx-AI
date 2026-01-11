@@ -1,8 +1,4 @@
-Perfect content 
-Below is a clean, well-structured, GitHub-ready README.md version of what you wrote.
-You can copy–paste this directly into README.md — no changes needed.
 
-⸻
 
 
 #  ScanDX AI – MRI Brain Tumor Analysis System
@@ -144,7 +140,6 @@ Limitations
 	•	Deploy a full-stack ML application on AWS
 	•	Showcase AI + Cloud + DevOps skills
 
-⸻
 
 👤 Author
 
@@ -152,12 +147,11 @@ Prajwal S
 Engineering Student
 Interested in AI, ML, Cloud & DevOps
 
-⸻
-
-📌 Disclaimer
+ Disclaimer
 
 This system is created only for educational and demonstration purposes.
 Always consult a qualified medical professional for real diagnosis.
+
 
 
 
